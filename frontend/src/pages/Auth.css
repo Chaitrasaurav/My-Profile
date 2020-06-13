@@ -1,0 +1,35 @@
+.auth-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-control label,
+.form-control input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.form-control input {
+  height: 30px;
+}
+
+button {
+  font: inherit;
+  background: #3B47D1;
+  display: inline-block;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-right: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover,
+button:active {
+  background: #323CB4;
+}
