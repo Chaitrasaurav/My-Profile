@@ -10,6 +10,10 @@
   margin: 10px 0;
 }
 
+.form-control textarea{
+  width: 100%;
+}
+
 .form-control input {
   height: 30px;
 }

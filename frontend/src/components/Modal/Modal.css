@@ -5,6 +5,13 @@
     position: fixed;
     top: 20vh;
     left: 5%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal header {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 @media (min-width: 768px) {
