@@ -12,7 +12,7 @@ class App extends Component {
   state = {
     token: null,
     userId: null
-  }
+  };
 
   login = (token, userId, tokenExpiration) => {
     this.setState({ token: token, userId: userId });
